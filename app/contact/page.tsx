@@ -35,7 +35,7 @@ export default function ContactPage() {
   const templateId = process.env.NEXT_PUBLIC_YOUR_TEMPLATE_ID || "";
   const publicKey = process.env.NEXT_PUBLIC_YOUR_PUBLIC_KEY || "";
 
-  const sendEmail = async (e) => {
+  const sendEmail = async (e: any) => {
     e.preventDefault();
 
     if (form.current) {
