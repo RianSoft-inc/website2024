@@ -35,18 +35,18 @@ export default function ContactPage() {
   const templateId = process.env.NEXT_PUBLIC_YOUR_TEMPLATE_ID || "";
   const publicKey = process.env.NEXT_PUBLIC_YOUR_PUBLIC_KEY || "";
 
-  const sendEmail = async (e: any) => {
+  const sendEmail = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     if (form.current) {
       try {
-        await emailjs.sendForm(
+        const result = await emailjs.sendForm(
           serviceId,
           templateId,
-          form.current as HTMLFormElement,
+          form.current,
           publicKey
         );
-        console.log("성공");
+        console.log(result.text, "성공");
         setModalMessage(
           `<span class="font-bold text-2xl">메일이 성공적으로 전송되었습니다.</span><br /><p class="text-gray-400 mt-2">빠른 시일내에 담당자가 연락할 예정입니다.</p>`
         );

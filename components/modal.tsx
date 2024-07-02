@@ -13,7 +13,7 @@ const Modal = ({
 
   return (
     <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex justify-center items-center">
-      <div className="bg-white p-10 rounded shadow-lg flex flex-col items-center">
+      <div className="bg-white p-10 px-20 rounded shadow-lg flex flex-col items-center">
         <IconContext.Provider value={{ color: iconColor, size: "2.5em" }}>
           {icon}
         </IconContext.Provider>
