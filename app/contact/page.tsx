@@ -184,7 +184,7 @@ export default function ContactPage() {
             <div className="flex gap-2">
               <FaPhoneAlt size={24} color="#00BF63" />
               <span className="text-neutral-500 font-extralight">
-                010-1234-1234
+                010-5787-0553
               </span>
             </div>
             <div className="flex gap-2">
@@ -196,7 +196,7 @@ export default function ContactPage() {
             <div className="flex gap-2">
               <MdEmail size={24} color="#00BF63" />
               <span className="text-neutral-500 font-extralight">
-                riansoft@gmail.com
+                info@riansoft.io
               </span>
             </div>
           </div>
