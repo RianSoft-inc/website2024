@@ -1,15 +1,5 @@
-"use client";
-import { useEffect } from "react";
-import {
-  useAnimation,
-  motion,
-  useSpring,
-  useTransform,
-  MotionValue,
-} from "framer-motion";
-// import { useInView } from "react-intersection-observer";
-
-const AboutRian: React.FC = () => {
+// const AboutRian: React.FC = () => {
+const AboutRian = () => {
   // const controls = useAnimation();
   // const [ref, inView] = useInView({ triggerOnce: false });
 
