@@ -7,7 +7,7 @@ import {
   useTransform,
   MotionValue,
 } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+// import { useInView } from "react-intersection-observer";
 
 const AboutRian: React.FC = () => {
   // const controls = useAnimation();
