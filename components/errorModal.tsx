@@ -5,10 +5,12 @@ export default function ErrorModal({ isOpen, onClose }: any) {
     isOpen && (
       <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
         <div className="bg-white p-5 rounded-lg shadow-lg">
-          <h3 className="font-bold text-lg">🚨에러 발생</h3>
+          <h3 className="font-bold text-lg">🚨에러 발생🚨</h3>
           <p className="py-4">
-            현재 이메일 전송 API의 유료화 전환으로 잠시 전송 기능을 <br />
-            사용하기가 어렵습니다. 빠른 시일 내로 복구하겠습니다. <br />
+            현재 귀사에서 사용 중인 이메일 전송 API의 유료화 전환으로 인해{" "}
+            <br />
+            잠시 이메일 전송 기능을 사용하기가 어렵습니다. <br />
+            빠른 시일 내로 복구하겠습니다. <br />
             문의 사항은 하단의 연락처를 참고하시어 연락주시면 감사드리겠습니다.{" "}
             <br />
           </p>
