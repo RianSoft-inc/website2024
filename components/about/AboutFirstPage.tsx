@@ -17,7 +17,7 @@ export default function AboutFirstPage() {
     <div className="h-full flex justify-center">
       <div className="flex flex-col absolute sm:left-16 md:translate-x-1/4 lg:translate-x-3/7 max-sm:left-16">
         <Image
-          src="/RianSoft로고.png"
+          src="/image/RianSoft로고.png"
           alt="회사로고"
           width={isSmallScreen ? 40 : 90}
           height={isSmallScreen ? 40 : 90}
@@ -33,7 +33,7 @@ export default function AboutFirstPage() {
       </div>
 
       <Image
-        src="/리안소프트4.png"
+        src="/image/리안소프트4.png"
         alt="회사이미지"
         width={1200}
         height={850}

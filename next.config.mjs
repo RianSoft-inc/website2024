@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  webpack5: true,
-  webpack: (config, options, { isServer }) => {
+  webpack: (config) => {
     config.cache = false;
     config.module.rules.push({
       test: /\.svg$/,

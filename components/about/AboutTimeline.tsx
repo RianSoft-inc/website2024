@@ -26,8 +26,8 @@ export default function AboutTimeline() {
           {/* 첫 번째 타임라인 도형 끝*/}
           {/* 첫 번째 타임라인 글 시작*/}
           <div className="timeline-start mb-10 md:text-end">
-            <time className="font-mono italic">2023.07</time>
-            <div className="text-lg font-black">팀 두리안 결성</div>
+            <time className="font-light">2023.07</time>
+            <div className="text-lg font-bold">팀 두리안 결성</div>
             {/* <p className="bg-blue-200 text-white p-0.5 text-center w-20 rounded-tl-none rounded-tr-md rounded-br-md rounded-bl-md">
               Do!Rian
             </p> */}
@@ -54,8 +54,8 @@ export default function AboutTimeline() {
             </svg>
           </div>
           <div className="timeline-end mb-10">
-            <time className="font-mono italic">2023.11</time>
-            <div className="text-lg font-black">타로 서비스 제작</div>
+            <time className="font-light">2023.11</time>
+            <div className="text-lg font-bold">타로 서비스 제작</div>
           </div>
           <hr className="bg-green-200" />
         </li>
@@ -77,8 +77,8 @@ export default function AboutTimeline() {
             </svg>
           </div>
           <div className="timeline-start mb-10 md:text-end">
-            <time className="font-mono italic">2024.04.29</time>
-            <div className="text-lg font-black">리안소프트(주) 설립</div>
+            <time className="font-light ">2024.04.29</time>
+            <div className="text-lg font-bold">리안소프트(주) 설립</div>
           </div>
           <hr className="bg-green-300" />
         </li>
@@ -100,10 +100,8 @@ export default function AboutTimeline() {
             </svg>
           </div>
           <div className="timeline-end mb-10">
-            <time className="font-mono italic">2024.05</time>
-            <div className="text-lg font-black">
-              신규 인원 고용 및 인력 양성
-            </div>
+            <time className="font-light">2024.05</time>
+            <div className="text-lg font-bold">신규 인원 고용 및 인력 양성</div>
           </div>
           <hr className="bg-green-400" />
         </li>
@@ -125,8 +123,8 @@ export default function AboutTimeline() {
             </svg>
           </div>
           <div className="timeline-start mb-10 md:text-end">
-            <time className="font-mono italic">2024.07~11</time>
-            <div className="text-lg font-black">
+            <time className="font-light">2024.07~11</time>
+            <div className="text-lg font-bold">
               ICT AI 시제품 제작 지원 사업 참여
             </div>
             감성 분석 서비스 제작 중

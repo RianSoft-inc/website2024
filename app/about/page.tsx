@@ -5,8 +5,7 @@ import AboutValues from "@/components/about/AboutValues";
 
 const AboutPage: React.FC = () => {
   return (
-    <div className="mt-14">
-      {/* <h1 className="text-4xl font-bold text-center my-8">About Page</h1> */}
+    <div className="mt-40">
       <AboutFirstPage />
       <AboutRian />
       <AboutValues />
