@@ -3,12 +3,15 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { BsFillBuildingFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 
-//이메일 관련
+// 이메일 관련
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { FaCircleCheck } from "react-icons/fa6";
 import { RiErrorWarningFill } from "react-icons/ri";
 import Modal from "@/components/modal";
+import dynamic from "next/dynamic";
+
+const KakaoMap = dynamic(() => import("@/components/kakaomap"), { ssr: false });
 
 export default function ContactPage() {
   const parts = [
@@ -171,7 +174,9 @@ export default function ContactPage() {
       </section>
 
       <section className="h-screen flex flex-col lg:flex-row items-center justify-center gap-14">
-        <div className="bg-green-200 w-[500px] h-[500px]">{/* 지도 */}</div>
+        <div className="bg-green-200 w-[500px] h-[500px]">
+          <KakaoMap />
+        </div>
         <div className="h-96 px-14 py-28 flex flex-col justify-center gap-10 bg-white rounded-lg shadow-2xl hover:-translate-y-6 transition-all">
           <div className="md:text-md text-left">
             <h1 className="text-3xl font-semibold">
@@ -190,7 +195,7 @@ export default function ContactPage() {
             <div className="flex gap-2">
               <BsFillBuildingFill size={24} color="#00BF63" />
               <span className="text-neutral-500 font-extralight">
-                광주광역시 동구 동계천로 150 IPLEX 2층 205호-4
+                광주광역시 동구 동계천로 150 IPLEX 1층 109호
               </span>
             </div>
             <div className="flex gap-2">
